@@ -19,8 +19,8 @@ const productsData = {
       price: "₹79904",
       oldPrice: "₹99904",
       colors: {
-        gold: "images/ringG1.jpg",
-        silver: "images/ringS.jpg",
+        gold: "ringG1.jpg",
+        silver: "ringS.jpg",
       },
     },
     {
@@ -28,8 +28,8 @@ const productsData = {
       price: "₹68904",
       oldPrice: "₹88904",
       colors: {
-        gold: "images/ring2G.jpg",
-        silver: "images/ringS2.jpg",
+        gold: "ring2G.jpg",
+        silver: "ringS2.jpg",
       },
     },
     {
@@ -37,8 +37,8 @@ const productsData = {
       price: "₹85904",
       oldPrice: "₹105904",
       colors: {
-        gold: "images/ringG3.jpg",
-        silver: "images/ring3S.jpg",
+        gold: "ringG3.jpg",
+        silver: "ring3S.jpg",
       },
     },
   ],
@@ -48,15 +48,15 @@ const productsData = {
       price: "₹45,900",
       oldPrice: "₹59,900",
       colors: {
-        gold: "images/p1g.jpg",
-        silver: "images/p1s.jpg",
+        gold: "p1g.jpg",
+        silver: "p1s.jpg",
       },
     },
     {
       name: "Minimal Heart Pendant",
       price: "₹29,900",
       oldPrice: "₹39,900",
-      image: "images/p2.jpg",
+      image: "p2.jpg",
     },
   ],
 
@@ -66,15 +66,15 @@ const productsData = {
       price: "₹79,904",
       oldPrice: "₹99,904",
       colors: {
-        gold: "images/bg2.jpg",
-        silver: "images/bs1.jpg",
+        gold: "bg2.jpg",
+        silver: "bs1.jpg",
       },
     },
     {
       name: "Classic Chain Bracelet",
       price: "₹39,500",
       oldPrice: "₹49,500",
-      image: "images/bg1.jpg",
+      image: "bg1.jpg",
     },
   ],
 
@@ -84,15 +84,15 @@ const productsData = {
       price: "₹99,900",
       oldPrice: "₹1,19,900",
       colors: {
-        gold: "images/bangleG.jpg",
-        silver: "images/bangleS1.jpg",
+        gold: "bangleG.jpg",
+        silver: "bangleS1.jpg",
       },
     },
     {
       name: "Elegant Minimal Bangle",
       price: "₹54,900",
       oldPrice: "₹69,900",
-      image: "images/bangleG2.jpg",
+      image: "bangleG2.jpg",
     },
   ],
 
@@ -102,8 +102,8 @@ const productsData = {
       price: "₹35,900",
       oldPrice: "₹45,900",
       colors: {
-        gold: "images/er1g.jpg",
-        silver: "images/er1S.jpg",
+        gold: "er1g.jpg",
+        silver: "er1S.jpg",
       },
     },
   ],
@@ -255,3 +255,4 @@ searchIcon.addEventListener("click", handleSearch);
 searchInput.addEventListener("keypress", (e) => {
   if (e.key === "Enter") handleSearch();
 });
+
