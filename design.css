@@ -285,7 +285,7 @@ body {
 
 /* RIGHT IMAGE */
 .hero-right {
-  background: url("./images/banner2.jpeg") center/cover no-repeat;
+  background: url("banner2.jpeg") center/cover no-repeat;
 }
 
 /* bestseller-section */
@@ -1590,4 +1590,5 @@ body {
     padding: 30px 16px;
   }
 }
+
 
