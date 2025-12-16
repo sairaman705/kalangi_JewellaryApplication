@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products | Kilangi</title>
+    <link rel="stylesheet" href="design.css" />
+</head>
+
+<body class="fade-page">
+
+    <!-- Header -->
+    <div class="all-products-header">
+        <button class="back-btn" id="backBtn">← Back to Home</button>
+        <h1>All Jewellery</h1>
+    </div>
+
+    <!-- Products -->
+    <div class="product-grid all-products-grid" id="allProductsGrid"></div>
+
+    <script src="script.js"></script>
+    <script>
+        loadProducts("all", "allProductsGrid");
+
+        // Smooth back navigation
+        document.getElementById("backBtn").addEventListener("click", () => {
+            document.body.style.opacity = "0";
+            setTimeout(() => {
+                window.location.href = "index.html";
+            }, 400);
+        });
+    </script>
+
+</body>
+
+</html>
