@@ -223,7 +223,7 @@ cards.forEach((card) => {
   });
 });
 
-/* ================= SEARCH FUNCTIONALITY ================= */
+/*  SEARCH FUNCTIONALITY  */
 
 const searchInput = document.querySelector(".search-box input");
 const searchIcon = document.querySelector(".search-box i");
@@ -255,4 +255,5 @@ searchIcon.addEventListener("click", handleSearch);
 searchInput.addEventListener("keypress", (e) => {
   if (e.key === "Enter") handleSearch();
 });
+
 
