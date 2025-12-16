@@ -216,7 +216,7 @@ body {
 
 /* LEFT IMAGE */
 .hero-left {
-  background: url("./images/banner1.jpeg") center/cover no-repeat;
+  background: url("banner1.jpeg") center/cover no-repeat;
   position: relative;
   padding: 80px 70px;
   display: flex;
@@ -1590,3 +1590,4 @@ body {
     padding: 30px 16px;
   }
 }
+
